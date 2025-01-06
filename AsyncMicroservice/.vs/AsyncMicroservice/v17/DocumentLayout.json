@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\WebHook\\AsyncMicroservice\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C8CCC48-9360-4720-B6A7-39844BAF3FB9}|ProductAPI\\ProductAPI.csproj|d:\\webhook\\asyncmicroservice\\productapi\\data\\productdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C8CCC48-9360-4720-B6A7-39844BAF3FB9}|ProductAPI\\ProductAPI.csproj|solutionrelative:productapi\\data\\productdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DDC997E-609F-496D-8A29-9460920068BD}|Shared\\Shared.csproj|d:\\webhook\\asyncmicroservice\\shared\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DDC997E-609F-496D-8A29-9460920068BD}|Shared\\Shared.csproj|solutionrelative:shared\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,6 +83,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductDbContext.cs",
+              "DocumentMoniker": "D:\\WebHook\\AsyncMicroservice\\ProductAPI\\Data\\ProductDbContext.cs",
+              "RelativeDocumentMoniker": "ProductAPI\\Data\\ProductDbContext.cs",
+              "ToolTip": "D:\\WebHook\\AsyncMicroservice\\ProductAPI\\Data\\ProductDbContext.cs",
+              "RelativeToolTip": "ProductAPI\\Data\\ProductDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T16:15:40.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\WebHook\\AsyncMicroservice\\Shared\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Shared\\Models\\Product.cs",
+              "ToolTip": "D:\\WebHook\\AsyncMicroservice\\Shared\\Models\\Product.cs",
+              "RelativeToolTip": "Shared\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T16:08:53.145Z",
+              "EditorCaption": ""
             }
           ]
         }
