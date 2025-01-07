@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using ProductAPI.Data;
+using ProductAPI.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +12,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ProductDbContext>
     (options => options.UseSqlite(builder.Configuration.GetConnectionString("Default")));
+builder.Services.AddScoped<IProduct, ProductRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
