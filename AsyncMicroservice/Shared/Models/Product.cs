@@ -9,6 +9,6 @@ namespace Shared.Models
         public string? Name { get; set; }
 
         [Column(TypeName = "decimal(18,2)")]
-        public double Price { get; set; }
+        public decimal Price { get; set; }
     }
 }

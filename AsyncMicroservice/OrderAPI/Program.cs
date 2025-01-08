@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using OrderAPI.Data;
+using OrderAPI.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +12,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<OrderDbContext>
     (options => options.UseSqlite(builder.Configuration.GetConnectionString("Default")));
+builder.Services.AddScoped<IOrder, OrderRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

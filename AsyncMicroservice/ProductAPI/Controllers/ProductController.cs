@@ -10,14 +10,14 @@ namespace ProductAPI.Controllers
     public class ProductController(IProduct _product) : ControllerBase
     {
         [HttpPost]
-        public async Task<ActionResult<ServiceResponse>> AddProduct(Product product)
+        public async Task<ActionResult<ServiceResponse>> AddProductAsync(Product product)
         {
             var response = await _product.AddProductAsync(product);
             return response.Flag ? Ok(response) : BadRequest(response);
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<Product>>> GetProducts() =>
+        public async Task<ActionResult<List<Product>>> GetProductsAsync() =>
             await _product.GetAllProductsAsync();
     }
 }
