@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "D:\\WebHook\\AsyncMicroservice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D88AF0BA-8833-402E-AB7B-31B591CCB416}|OrderAPI\\OrderAPI.csproj|d:\\webhook\\asyncmicroservice\\orderapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D88AF0BA-8833-402E-AB7B-31B591CCB416}|OrderAPI\\OrderAPI.csproj|solutionrelative:orderapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D88AF0BA-8833-402E-AB7B-31B591CCB416}|OrderAPI\\OrderAPI.csproj|d:\\webhook\\asyncmicroservice\\orderapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D88AF0BA-8833-402E-AB7B-31B591CCB416}|OrderAPI\\OrderAPI.csproj|solutionrelative:orderapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D88AF0BA-8833-402E-AB7B-31B591CCB416}|OrderAPI\\OrderAPI.csproj|d:\\webhook\\asyncmicroservice\\orderapi\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D88AF0BA-8833-402E-AB7B-31B591CCB416}|OrderAPI\\OrderAPI.csproj|solutionrelative:orderapi\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1CAF68B-ED04-495E-884F-93F3CB84CC48}|EmailNotificationWebHook\\EmailNotificationWebHook.csproj|d:\\webhook\\asyncmicroservice\\emailnotificationwebhook\\consumer\\webhookconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CAF68B-ED04-495E-884F-93F3CB84CC48}|EmailNotificationWebHook\\EmailNotificationWebHook.csproj|solutionrelative:emailnotificationwebhook\\consumer\\webhookconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -91,39 +83,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\WebHook\\AsyncMicroservice\\OrderAPI\\Program.cs",
-              "RelativeDocumentMoniker": "OrderAPI\\Program.cs",
-              "ToolTip": "D:\\WebHook\\AsyncMicroservice\\OrderAPI\\Program.cs",
-              "RelativeToolTip": "OrderAPI\\Program.cs",
+              "Title": "WebhookConsumer.cs",
+              "DocumentMoniker": "D:\\WebHook\\AsyncMicroservice\\EmailNotificationWebHook\\Consumer\\WebhookConsumer.cs",
+              "RelativeDocumentMoniker": "EmailNotificationWebHook\\Consumer\\WebhookConsumer.cs",
+              "ToolTip": "D:\\WebHook\\AsyncMicroservice\\EmailNotificationWebHook\\Consumer\\WebhookConsumer.cs",
+              "RelativeToolTip": "EmailNotificationWebHook\\Consumer\\WebhookConsumer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T10:47:43.453Z",
+              "WhenOpened": "2025-01-08T10:26:34.557Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderRepository.cs",
-              "DocumentMoniker": "D:\\WebHook\\AsyncMicroservice\\OrderAPI\\Repository\\OrderRepository.cs",
-              "RelativeDocumentMoniker": "OrderAPI\\Repository\\OrderRepository.cs",
-              "ToolTip": "D:\\WebHook\\AsyncMicroservice\\OrderAPI\\Repository\\OrderRepository.cs",
-              "RelativeToolTip": "OrderAPI\\Repository\\OrderRepository.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwA8AAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T10:44:26.519Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "D:\\WebHook\\AsyncMicroservice\\OrderAPI\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "OrderAPI\\Controllers\\OrderController.cs",
-              "ToolTip": "D:\\WebHook\\AsyncMicroservice\\OrderAPI\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "OrderAPI\\Controllers\\OrderController.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAUwBYAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T10:41:22.341Z"
             }
           ]
         }
