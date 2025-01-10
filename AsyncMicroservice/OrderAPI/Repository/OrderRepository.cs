@@ -14,7 +14,7 @@ namespace OrderAPI.Repository
             context.Orders.Add(order);
             await context.SaveChangesAsync();
             var orderSummary = await GetOrderSummaryAsync(order.Id);
-            string content = BuildOrderEmailBody(orderSummary.Id, orderSummary.ProductName, orderSummary.ProductPrice,
+            string content = BuildOrderEmailBody(orderSummary!.Id, orderSummary!.ProductName, orderSummary!.ProductPrice,
                 orderSummary.Quantity, orderSummary.TotalAmount, orderSummary.Date);
             await publishEndpoint.Publish(new EmailDTO("Order Information", content));
             await ClearOrderTableAsync();
@@ -28,20 +28,20 @@ namespace OrderAPI.Repository
             return orders;
         }
 
-        public async Task<OrderSummary> GetOrderSummaryAsync(int id)
+        public async Task<OrderSummary?> GetOrderSummaryAsync(int id)
         {
-            var order = await context.Orders.Where(x => x.Id == id).FirstOrDefaultAsync();
+            var order = await context.Orders.Where(x => x.Id == id).FirstOrDefaultAsync();            
             var products = await context.Products.ToListAsync();
             var productInfo = products.Find(x => x.Id == order!.ProductId);
-            return new OrderSummary
+            return order == null ? null : new OrderSummary
             (
                 order!.Id,
-                order.ProductId,
+                order!.ProductId,
                 productInfo!.Name!,
-                productInfo.Price,
-                order.Quantity,
-                order.Quantity * productInfo.Price,
-                order.Date
+                productInfo!.Price,
+                order!.Quantity,
+                order!.Quantity * productInfo.Price,
+                order!.Date
             );
         }
 

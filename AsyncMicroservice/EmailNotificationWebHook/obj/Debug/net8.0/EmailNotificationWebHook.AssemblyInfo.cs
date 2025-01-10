@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EmailNotificationWebHook")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55ff18fc828bcaa97d4bea0a8466c88c1757ebf3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e994b8f766e609a99beffab547c6a00230ef2fa")]
 [assembly: System.Reflection.AssemblyProductAttribute("EmailNotificationWebHook")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EmailNotificationWebHook")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
