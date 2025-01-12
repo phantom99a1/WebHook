@@ -1,3 +1,16 @@
 ﻿services:
     rabbitmq:
-        image: 
+        image: rabbitmq:3.8-management-alpine
+        container_name: rabbitmq
+        ports:
+          - "44335:44335"
+          - "54329:54329"
+        environment:
+          RABBITMQ_DEFAULT_USER: guest
+          RABBITMQ_DEFAULT_PASSWORD: guest
+        volumes:
+          - rabbitmq_data:/var/lib/rabbitmq
+
+volumes:
+    rabbitmq_data:
+        driver: local

@@ -5,14 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E1CAF68B-ED04-495E-884F-93F3CB84CC48}|EmailNotificationWebHook\\EmailNotificationWebHook.csproj|d:\\webhook\\asyncmicroservice\\emailnotificationwebhook\\dockercompose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{E1CAF68B-ED04-495E-884F-93F3CB84CC48}|EmailNotificationWebHook\\EmailNotificationWebHook.csproj|solutionrelative:emailnotificationwebhook\\dockercompose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D88AF0BA-8833-402E-AB7B-31B591CCB416}|OrderAPI\\OrderAPI.csproj|d:\\webhook\\asyncmicroservice\\orderapi\\repository\\iorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D88AF0BA-8833-402E-AB7B-31B591CCB416}|OrderAPI\\OrderAPI.csproj|solutionrelative:orderapi\\repository\\iorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D88AF0BA-8833-402E-AB7B-31B591CCB416}|OrderAPI\\OrderAPI.csproj|d:\\webhook\\asyncmicroservice\\orderapi\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D88AF0BA-8833-402E-AB7B-31B591CCB416}|OrderAPI\\OrderAPI.csproj|solutionrelative:orderapi\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,37 +82,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IOrder.cs",
-              "DocumentMoniker": "D:\\WebHook\\AsyncMicroservice\\OrderAPI\\Repository\\IOrder.cs",
-              "RelativeDocumentMoniker": "OrderAPI\\Repository\\IOrder.cs",
-              "ToolTip": "D:\\WebHook\\AsyncMicroservice\\OrderAPI\\Repository\\IOrder.cs",
-              "RelativeToolTip": "OrderAPI\\Repository\\IOrder.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T17:00:04.472Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderRepository.cs",
-              "DocumentMoniker": "D:\\WebHook\\AsyncMicroservice\\OrderAPI\\Repository\\OrderRepository.cs",
-              "RelativeDocumentMoniker": "OrderAPI\\Repository\\OrderRepository.cs",
-              "ToolTip": "D:\\WebHook\\AsyncMicroservice\\OrderAPI\\Repository\\OrderRepository.cs",
-              "RelativeToolTip": "OrderAPI\\Repository\\OrderRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAcwBMAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-09T16:20:06.314Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "DockerCompose.yml",
               "DocumentMoniker": "D:\\WebHook\\AsyncMicroservice\\EmailNotificationWebHook\\DockerCompose.yml",
               "RelativeDocumentMoniker": "EmailNotificationWebHook\\DockerCompose.yml",
               "ToolTip": "D:\\WebHook\\AsyncMicroservice\\EmailNotificationWebHook\\DockerCompose.yml",
               "RelativeToolTip": "EmailNotificationWebHook\\DockerCompose.yml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAPAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2025-01-09T16:12:12.038Z",
               "EditorCaption": ""
